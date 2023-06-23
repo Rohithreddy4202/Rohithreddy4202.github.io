@@ -1,12 +1,27 @@
 <!doctype html>
 <html>
 <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.js"></script>
     <title>contactus</title>
 <style>
     *{margin: 0px;}
 html{
 scroll-behavior:smooth;
 }
+#r1 h1{
+    text-align: center;
+font-size:50px;
+border-style:double;
+border-color: rgb(162, 229, 242);
+border-top-width:10px;
+border-bottom-width:10px ;
+background:blue;
+text-shadow:2px 2px 3px gray;
+border-radius: 15px;
+position: sticky;
+top:0;
+} 
 a{
 font-size:20px;
 }
@@ -55,7 +70,7 @@ margin: 10px;}
 
     #r891,#r892,#r893{transition-property: transform;
 transition-duration: 2s;}
-#r8911,#r8922,#r8933{height: 100px;
+#r8911,#r8922,#r8933{height: 80px;
     width: 100px;
     margin: auto;
 }
@@ -151,29 +166,35 @@ background-color: aquamarine;
 
 </head>
 <body >
+    <div class="container-fluid">
+        <div class="row">
+    <div id="r1" class="col-lg-12 col-sm-12 col-md-12 col-12"><h1 style="text-align: center;">FARMTECH SOLUTIONS</h1>
+    </div>
+    </div>
+    </div>
+    
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class=" btn btn-group">
+                <a class="btn btn-primary" href="home.html">home</a>
+                <a href="crops.html"class="btn btn-primary">Crops</a>
+                <a href="market.html" class="btn btn-primary">Market</a>
+                <a href="contactus.html"class="btn btn-primary">contactus</a>
+            </div>
+        </div>
+    </div>
+    
 
-<div id="cr1"style="background:blue"><h1 align="center">FARMTECH SOLUTIONS</h1>
-</div>
-<hr  style="height:2px" color="red">
-<div>
-<table  height=30px; width=1520px;>
-<tr bgcolor="green">
-<td align=center><a href=home.html>home</a></td>
-<td align=center><a href=crops.html  target="_blank">Crops</a></td>
-<td align=center><a href=market.html>Market</a></td>
-<td align=center><a href=contactus.html>contactus</a></td>
-</tr>
-</table>
-</div>
-
+<div class="container">
 <p>if any diseases effeted to ur farm . &#128247click the picture and fill the below form and get solutions by agricultural experts </p>
-<div id="r34">
-<div id="rr34">
-    <img src="images/sol.jpg" >
 </div>
-<div class="rc"id="rr35">
-<form action="jnh.jsp">
-<table border="1" cellspacing="0" cellpadding="5" width=500 >
+<div class="container"><div class="row"><div class="col-12">
+    <div class="card">
+        <div class="card-head"> <img src="images/sol.jpg" class="w-100"></div>
+        <div class="card-body bg-info">
+           <form action="jnh.jsp">
+<table border="1" cellspacing="0" cellpadding="5" width=500 class="table-strip" >
 <tr><td>first name:</td><td><input type="text"></td></tr>
 <tr><td>last name:</td><td><input type="text"></td></tr>
 <tr><td>DOB:</td><td><input type="date"></td></tr>
@@ -183,10 +204,12 @@ background-color: aquamarine;
 <tr><td colspan="2" align="center"><input type="submit" value="send"></td></tr>
 </table>
 </form>
-</div>
-</div>
+        </div>
+    </div>
+</div></div></div>
+
 <!--3 separete dive phots janu madhu ro-->
-<div id="r89">
+<div id="r89"  class="col-lg-12 col-sm-12 col-md-12 col-12">
     <div id="r89r"> <h3>experts</h3></div>
     <div id="r891">
         <div class="rn" id="r8911"><img src="images/janu.jpg" ></div>
@@ -201,7 +224,8 @@ background-color: aquamarine;
 </div>
 
 
-<div id="s34" class>
+<div id="s34"  class="col-lg-12 col-sm-12 col-md-12 col-12">
+
     <h3>FIND AGRI EXPERTS IN UR AREA</h3>
     <div id ="s35"> <p>choose your country</p><form action="/action_page.php">
        
@@ -224,15 +248,24 @@ background-color: aquamarine;
 <h3>company address</h3>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60458.65420119077!2d78.23753570743699!3d18.723770748488267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcdb8f98db9cf43%3A0x9070e7b724ebf0cd!2sKaligote%2C%20Telangana%20503175!5e0!3m2!1sen!2sin!4v1685271666217!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
-
-<div id="r98">
-<h4 >contactus</h4>
-<table width=600><tr><td>&#x1F4DE;<br>9092xxxx990<br>9083642648</td>
-<td>&#x1F4E7;<br>rohith@gmail.com</td>
-<td>&#127980 <br>Shop No:5, H.No:24-47/1, KPHB Colony MIG,<br> Rd Number 1, K P H B Phase 1, Kukatpally, <br>Hyderabad, Telangana 500072</td>
-</tr></table></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-4 col-lg-4 col-md-4 col-sm-4">&#x1F4DE;<br>9092xxxx990<br>9083642648
+                </div>
+                <div class="col-4 col-lg-4 col-md-4 col-sm-4">&#x1F4E7;<br>rohith@gmail.com
+                </div>
+                <div class="col-4 col-lg-4 col-md-4 col-sm-4">&#127980 <br>Shop No:5, H.No:24-47/1, KPHB Colony MIG,<br> Rd Number 1, K P H B Phase 1, Kukatpally, <br>Hyderabad, Telangana 500072
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div 
 
 <p ><a href="#cr1" ><i>back to top</i></a><p>
+
 <div id="r33">
 <footer>
 <p align="center">&copy;Copy Right. All Rights Are Reserved<sup>&reg;</sup></p>

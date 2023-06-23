@@ -1,11 +1,26 @@
 <!doctype html>
 <html>
 <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.js"></script>
 <style>
     *{margin: 0px;}
 html{
 scroll-behavior:smooth;
 }
+#r1 h1{
+    text-align: center;
+font-size:50px;
+border-style:double;
+border-color: rgb(162, 229, 242);
+border-top-width:10px;
+border-bottom-width:10px ;
+background:blue;
+text-shadow:2px 2px 3px gray;
+border-radius: 15px;
+position: sticky;
+top:0;
+} 
 h1{
 font-size:50px;
 }
@@ -27,19 +42,26 @@ marquee{font-size:20px}
 </head>
 <body >
 
-<div id="r1"style="background:blue"><h1 align="center">FARMTECH SOLUTIONS</h1>
-</div>
-<hr  style="height:2px" color="red">
-<div>
-<table  height=30px; width=1520px;>
-<tr bgcolor="green">
-<td align=center><a href=home.html>home</a></td>
-<td align=center><a href=crops.html target="_blank">Crops</a></td>
-<td align=center><a href=market.html>Market</a></td>
-<td align=center><a href=contactus.html>contactus</a></td>
-</tr>
-</table>
-</div>
+    <div class="container-fluid">
+        <div class="row">
+    <div id="r1" class="col-lg-12 col-sm-12 col-md-12 col-12"><h1 style="text-align: center;">FARMTECH SOLUTIONS</h1>
+    </div>
+    </div>
+    </div>
+    
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class=" btn btn-group">
+                <a class="btn btn-primary" href="home.html">home</a>
+                <a href="crops.html"class="btn btn-primary">Crops</a>
+                <a href="market.html" class="btn btn-primary">Market</a>
+                <a href="contactus.html"class="btn btn-primary">contactus</a>
+            </div>
+        </div>
+    </div>
+    
+
 
 <div id="cr1" style="background:#F0FFFF"><h3>Crop Details and farming methodes</h3>
 <ul><li><a href="#cr2">Shifting cultivation</a></li>
@@ -86,7 +108,7 @@ marquee{font-size:20px}
 <li>West Bengal, Punjab, Uttar Pradesh, Andhra Pradesh, and Bihar are the largest rice-producing Indian states.</li>
 </ul>
 <li><h4>WHEAT</h4></li>
-<img src="images/w1.jpg">
+<img src="images/whet.jpg">
 <p>Wheat is the second crop mentioned in this list. It is a rabi crop and staple food. After rice, wheat is the food crop that is widely consumed in India. It requires a low temperature and cools the growing season. </p>
 <ul>
 <li>It requires a temperature of 10-15°C (Sowing) and 21-26°C (Harvesting) with bright sunlight.</li>

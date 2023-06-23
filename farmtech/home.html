@@ -1,12 +1,14 @@
 <!doctype html>
 <html>
 <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+   <script src="js/bootstrap.bundle.js"></script>
 <style>
     *{margin: 0px;}
 html{
 scroll-behavior:smooth;
 }
-h1{
+#r1 h1{
     text-align: center;
 font-size:50px;
 border-style:double;
@@ -35,90 +37,113 @@ div{margin: 2px;}
 h3{
 font-size:30px;
 }
-a{
-font-size:20px;
-text-decoration: none;
-}
-a:hover{
-    text-decoration: underline;
-}
-footer{
-    background-color: brown;
-    background:linear-gradient(to right,blue,green);
-    
+#r567{
+    background-image:url(images/subfar.jpg); 
+    height: 500px;
+    width: 100%;
 }
 
-   
+
+footer{
+    background-color: brown;
+    background:linear-gradient(to right,blue,green);  
+}
 marquee{font-size:20px}
 
 </style>
 
 </head>
 <body >
-
-<div id="r1"><h1 align="center">FARMTECH SOLUTIONS</h1>
+<div class="container-fluid">
+    <div class="row">
+<div id="r1" class="col-lg-12 col-sm-12 col-md-12 col-12"><h1 style="text-align: center;">FARMTECH SOLUTIONS</h1>
 </div>
-<hr  style="height:2px" color="red">
-
-<div id="r99">
-<table  height=30px; width=1520px;>
-<tr bgcolor="green">
-<td align=center><a href=home.html>home</a></td>
-<td align=center><a href=crops.html>Crops</a></td>
-<td align=center><a href=market.html>Market</a></td>
-<td align=center><a href=contactus.html>contactus</a></td>
-</tr>
-<table>
 </div>
-<div class="rns">
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class=" btn btn-group">
+            <a class="btn btn-primary" href="home.html">home</a>
+            <a href="crops.html"class="btn btn-primary">Crops</a>
+            <a href="market.html" class="btn btn-primary">Market</a>
+            <a href="contactus.html"class="btn btn-primary">contactus</a>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+<div class="rns  col-lg-12 col-sm-12 col-md-12 col-12">
 <marquee scrollamount=4 bgcolor="ligntcyan">WELCOME TO FORM TECH BUDDY!!!!</marquee>
 </div>
-<div >
-<table>
-<tr background="images\organic.jpg"><td>
-<h3>importance of farming</h3>
-<p>Farming is growing crops and keeping animals for food and raw materials. Farming is a part of agriculture.
-Agriculture started thousands of years ago, but no one knows for sure how old it is.[1] The development of farming gave rise to the Neolithic Revolution as people gave up nomadic hunting and became settlers in cities.
-Agriculture and domestication probably started in the Fertile Crescent (the Nile Valley, the Levant and Mesopotamia).[2] The area called Fertile Crescent is now in the countries of Iraq, Syria, Turkey, Jordan, Lebanon, Israel, and Egypt. Wheat and barley are some of the first crops people grew. People probably started agriculture slowly by planting a few crops, but still gathered many foods from the wild. People may have started farming because the weather and soil began to change.</p>
-</td></tr></table>
 </div>
-<!--smart farming-->
-<div id="r3"><table><tr><td> 
+</div> 
 
-<h3>SMART FARMING: The Future of Agriculture</h3>
-<p>The Internet of Things (IoT) has provided ways to improve nearly every industry imaginable. In agriculture, IoT has not only provided solutions to often time-consuming and tedious tasks but is totally changing the way we think about agriculture. What exactly is a smart farm, though? Here is a rundown of what smart farming is and how it’s changing agriculture.
-Precision farming, or precision agriculture, is an umbrella concept for IoT-based approaches that make farming more controlled and accurate. In simple words, plants and cattle get precisely the treatment they need, determined by machines with superhuman accuracy. The biggest difference from the classical approach is that precision farming allows decisions to be made per square meter or even per plant/animal rather than for a field.
-As the food supply chain is getting more and more complex, along with tough local and international food safety regulations, SaaS-based smart farming solutions, can transform the way the entire Agri supply chain is managed.
+<div >
+    <div id="r3" class="bg-image p-5  rounded mb-5 text-white"
+    style="background-image:url(images/organic.jpg); " >
+    <h1 class="mb-3 text-center">importance of farming</h1>
+  
+    <p style="text-justify;">Farming is growing crops and keeping animals for food and raw materials. Farming is a part of agriculture.
+        Agriculture started thousands of years ago, but no one knows for sure how old it is.[1] The development of farming gave rise to the Neolithic Revolution as people gave up nomadic hunting and became settlers in cities.
+        Agriculture and domestication probably started in the Fertile Crescent (the Nile Valley, the Levant and Mesopotamia).[2] The area called Fertile Crescent is now in the countries of Iraq, Syria, Turkey, Jordan, Lebanon, Israel, and Egypt. Wheat and barley are some of the first crops people grew. People probably started agriculture slowly by planting a few crops, but still gathered many foods from the wild. People may have started farming because the weather and soil began to change.</p>
+     
+    </p>
+  </div>
+</div>
+<div>
 
-Such solutions bring observability to agribusinesses, and help them predict any anomalies and take corrective actions to prevent any food safety issue, in a cost-effective way.</p>
-</td>
-</tr>
-</table>
+    <div >
+    <div id="r3" class="bg-image p-5  rounded mb-5 text-white"
+    style="background-image: url(images/sfimg.jpg);"
+  >
+    <h1 class="mb-3 text-center h2">SMART FARMING: The Future of Agriculture</h1>
+  
+    <p style="text-justify">The Internet of Things (IoT) has provided ways to improve nearly every industry imaginable. In agriculture, IoT has not only provided solutions to often time-consuming and tedious tasks but is totally changing the way we think about agriculture. What exactly is a smart farm, though? Here is a rundown of what smart farming is and how it’s changing agriculture.
+        Precision farming, or precision agriculture, is an umbrella concept for IoT-based approaches that make farming more controlled and accurate. In simple words, plants and cattle get precisely the treatment they need, determined by machines with superhuman accuracy. The biggest difference from the classical approach is that precision farming allows decisions to be made per square meter or even per plant/animal rather than for a field.
+        As the food supply chain is getting more and more complex, along with tough local and international food safety regulations, SaaS-based smart farming solutions, can transform the way the entire Agri supply chain is managed.
+        
+    </p>
+  </div>
+</div>
+<div>
+
 </div>
 <!--subsidy session-->
-<div style="background-image:url(images/subfar.jpg);">
-<table width=1500px height=300px >
-<tr colspan="3"><td colspan="3" align="center"><h3>Different Types of Agriculture Subsidy In India</h3></td></tr>
-<tr><td><img src="images/subfar1.jpg" width=600px height=300px></td>
-<td>
-<ul type="square">
-<li><a>Seed Subsidy</a></li>
-<li><a href="https://krishijagran.com/topic/?id=Fertilizer%20Subsidy">Fertilizer Subsidy</a></li>
-<li><a>Irrigation Subsidy</a></li>
-<li><ahref="https://krishijagran.com/topic/?id=Power%20Subsidy">Power Subsidy</a></li>
-<li><a>Export Subsidy</a></li>
-<li><a href="https://krishijagran.com/farm-mechanization/agriculture-machinery-subsidies-documents-required-to-avail-it/">Agriculture Equipment Subsidy</a></li>
-</ul>
-<a href="https://www.ibef.org/industry/agriculture-india">for more</a>
-</td>
-<td><img src="images\subcidys.jpg" width=600px height=300px>
-</td></tr></table></div>
+<div id="hello" class="carousel slide" data-bs-ride="carousel">
+
+<!-- adding images -->
+<div class="carousel-inner">
+
+<div class="carousel-item   active" >
+<img src="images/subcidys.jpg"  height=500px; class="w-100">
+</div>
+
+<div class="carousel-item " id="r567">
+    <table height="500px" ><tr><td><ul type="square">
+        <li><a>Seed Subsidy</a></li>
+        <li><a href="https://krishijagran.com/topic/?id=Fertilizer%20Subsidy">Fertilizer Subsidy</a></li>
+        <li><a>Irrigation Subsidy</a></li>
+        <li><ahref="https://krishijagran.com/topic/?id=Power%20Subsidy">Power Subsidy</a></li>
+        <li><a>Export Subsidy</a></li>
+        <li><a href="https://krishijagran.com/farm-mechanization/agriculture-machinery-subsidies-documents-required-to-avail-it/">Agriculture Equipment Subsidy</a></li>
+        </ul><a href="https://www.ibef.org/industry/agriculture-india">for more</a>
+    </td></tr></table>
+</div>
+
+<div class="carousel-item">
+    <img src="images/subfar1.jpg" height=500px; class="w-100">
+</div>
+</div>
+</div>
 <p><a href="#r1">back to top</a></p>
 <div id="d3">
 <footer >
 <p align="center">&copy;Copy Right. All Rights Are Reserved<sup>&reg;</sup></p>
 <p align="center">Develop and maintain by farm tech groups.</p>
-<div id="r33">
+<div id="r33" class="col-lg-12 col-sm-12 col-md-12 col-12">
 <p align="center">follows us:&nbsp
 <a href="https://www.facebook.com/rohith.nadukuda?mibextid=ZbWKwL">
 <img src="images/facebook.jpg" width=30px height=30px></a>&nbsp
