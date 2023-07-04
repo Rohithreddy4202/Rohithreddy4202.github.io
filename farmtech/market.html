@@ -30,39 +30,31 @@ font-size:30px;
 a{
 font-size:20px;
 }
-#mr2,#mr3,#mr4{padding: 10px;
-margin: 10px;}
-#mr4 img{width: 250px; height: 200px;
-}
 footer{
     background-color: brown;
     background:linear-gradient(to right,blue,green);  
 }
-#r33 img{ border-radius: 15px;}
+#r33 img{color: white; border-radius: 15px;}
+.card  img{ height:200px; width: 150px;}
 marquee{font-size:20px}
 </style>
 
 </head>
 <body >
-
-    <div class="container-fluid">
-        <div class="row">
-    <div id="r1" class="col-lg-12 col-sm-12 col-md-12 col-12"><h1 style="text-align: center;">FARMTECH SOLUTIONS</h1>
-    </div>
-    </div>
-    </div>
-    
-    
-    <div class="container-fluid">
-        <div class="row">
-            <div class=" btn btn-group">
-                <a class="btn btn-primary" href="home.html">home</a>
-                <a href="crops.html"class="btn btn-primary">Crops</a>
-                <a href="market.html" class="btn btn-primary">Market</a>
-                <a href="contactus.html"class="btn btn-primary">contactus</a>
-            </div>
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+        <div class="container">
+            <a href="#" class="navbar-brand">farmtech</a>
+            <button class="navbar-toggler" data-bs-target="#hello" data-bs-toggle="collapse"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="hello">
+            <ui class="navbar-nav ms-auto">
+                <li><a href="home.html" class="nav-link">home</a></li>
+                <li><a href="market.html" class="nav-link">market</a></li>
+                <li><a href="crops.html" class="nav-link">crops</a></li>
+                <li><a href="contactus.html" class="nav-link">contactus</a></li>
+            </ui>
         </div>
-    </div>
+        </div>
+            </nav>
     
 
 
@@ -74,45 +66,235 @@ marquee{font-size:20px}
 </ul>
 </div>
 
-<div class="container-fluid"id="mr2" style="background:#C0C0C0" >
-<h3>fruites</h3>
-<table class="col-lg-12"><tr><td background="images/banana.jpg" height=50 width=200>
-<p><b color="red">bannas</b> (dozen)<br> mrp=<del>50rs</del><br>offer price=40rs</p></td>
-<td background="images/apple.jpg" height=50 width=200>
-<p><b>apple</b> (kg)<br> mrp=<del>50rs</del><br>offer price=40rs</p></td>
-<td background="images/mango.jpg" height=50 width=200>
-<p><b color="red">mangos</b> (kg)<br> mrp=<del>50rs</del><br>offer price=40rs</p></td>
-<td background="images/watermelon.jpg" height=50 width=200>
-<p style="color:red"><b style="color:red">watermelon</b> (kg)<br> mrp=<del>50rs</del><br>offer price=40rs</p></td></tr>
-<tr><td background="images/straberry.jpg" height=50 width=200 style="color:white">
-<p style="font-color:white" color="white"><b>straberry</b> (kg)<br> mrp=<del>50rs</del><br>offer price=40rs</p></td></tr></table>
-<a href="#cr1">back to top</a>
-</div>
 
 
-<div class="container-fluid  col-lg-12" id="mr3" style="background:#C0C0C0;">
-<h3>vegetables</h3>
-<table  class="col-lg-12 col-md-12 col-sm-12 col-12"><tr><td background="images/betroot.jpg"class="col-lg-3 col-md-3 col-sm-3 col-3">
-<p><b color="red">betroot</b> (kg)<br> mrp=<del>50rs</del><br>offer price=30rs</p></td>
-<td background="images/brinjal.jpg" class="col-lg-3 col-md-3 col-sm-3 col-3">
-<p><b>brinjal</b> (kg)<br> mrp=<del>50rs</del><br>offer price=40rs</p></td>
-<td background="images/carat.jpg" class="col-lg-3 col-md-3 col-sm-3 col-3">
-<p><b color="red">carrot</b> (kg)<br> mrp=<del>50rs</del><br>offer price=40rs</p></td>
-<td background="images/drumstick.jpg" >
-<p><b color="red">drumstick</b> (kg)<br> mrp=<del>50rs</del><br>offer price=40rs</p></td></tr>
-<tr><td background="images\onion1.jpg"class="col-lg-3 col-md-3 col-sm-3 col-3" >
-<p><b>onion</b> (7kgs)<br> mrp=<del>100rs</del><br>offer price=90rs</p></td></tr>
-</table>
-<a href="#cr1">back to top</a>
-</div>
+<div Id="mr2" >
+    <div class="container mt-3">
+        <h3>fruites</h3>
+    </div>
+    <div class="container mt-2">
+        <div class="row">
+        <div class="col-lg-12">
+        
+        <div class="card shadow">
+        <div class="card-body">
+        <div class="row  align-items-center">
+        
+         <div class="col-lg-4">
+          <img src="images/banana.jpg" class="img-thumbnail">
+         </div>
+         <div class="col-lg-8">
+          <h2>BANANA[DOZEN]</h2>
+          <p>SELLING PRICE:<strike>50</strike></p>
+          <p>OFFER PRICE:40</p>
+          <button class="btn btn-success">Order Now</button>
+         </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div></div>
+        <div class="container mt-2">
+            <div class="row">
+            <div class="col-lg-12">
+            <div class="card shadow">
+            <div class="card-body">
+            <div class="row  align-items-center">
+             <div class="col-lg-4">
+              <img src="images/straberry.jpg" class="img-thumbnail">
+             </div>
+            
+             <div class="col-lg-8">
+              <h2>STRAWBERRY[1 KG]</h2>
+              <p>SELLING PRICE:<strike>80</strike></p>
+              <p>OFFER PRICE:70</p>
+              <button class="btn btn-success">Order Now</button>
+             </div>
+            </div>
+            </div>
+            </div></div></div></div>
+    
+            <div class="container mt-2">
+                <div class="row">
+                <div class="col-lg-12">
+                
+                <div class="card shadow">
+                <div class="card-body">
+                <div class="row  align-items-center">
+                
+                 <div class="col-lg-4">
+                  <img src="images/mango.jpg" class="img-thumbnail">
+                 </div>
+                 <div class="col-lg-8">
+                  <h2>MANGO[1KGS]</h2>
+                  <p>SELLING PRICE:<strike>70</strike></p>
+                  <p>OFFER PRICE:65</p>
+                  <button class="btn btn-success">Order Now</button>
+                 </div>
+                </div>
+                </div>
+                </div>
+                </div></div></div>
+                <div class="container mt-2">
+                    <div class="row">
+                    <div class="col-lg-12">
+                    <div class="card shadow">
+                    <div class="card-body">
+                    <div class="row  align-items-center">
+                    
+                     <div class="col-lg-4">
+                      <img src="images/watermelon.jpg" class="img-thumbnail">            
+                     </div>
+        
+                     <div class="col-lg-8">
+                      <h2>WATERMELON[1.5 KG]</h2>
+                      <p>SELLING PRICE:<strike>70</strike></p>
+                      <p>OFFER PRICE:40</p>
+                      <button class="btn btn-success">Order Now</button>
+                     </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div></div></div>
+                    
+                    <div class="container mt-2">
+                        <div class="row">
+                        <div class="col-lg-12">
+                        
+                        <div class="card shadow">
+                        <div class="card-body">
+                        <div class="row  align-items-center">
+                        
+                         <div class="col-lg-4">
+                          <img src="images/apple.jpg" class="img-thumbnail">
+                         </div>
+                         <div class="col-lg-8">
+                          <h2>APPLE[1KGS]</h2>
+                          <p>SELLING PRICE:<strike>120</strike></p>
+                          <p>OFFER PRICE:90</p>
+                          <button class="btn btn-success">Order Now</button>
+                         </div>
+                        </div>
+                        </div>
+                        </div></div></div></div></div>
 
 
-
-<div class="bgsuccess">
-<div class="container-fluid mt-3">
+     <div id="mr3" >
+    <div class="container mt-3">
+        <h3>VEGETABLES</h3>
+    </div>
+    <div class="container mt-2">
+        <div class="row">
+        <div class="col-lg-12">
+        
+        <div class="card shadow">
+        <div class="card-body">
+        <div class="row  align-items-center">
+        
+         <div class="col-lg-4">
+          <img src="images/betroot.jpg" class="img-thumbnail">
+         </div>
+         <div class="col-lg-8">
+          <h2>BEETROOT[1KGS]</h2>
+          <p>SELLING PRICE:<strike>50</strike></p>
+          <p>OFFER PRICE:40</p>
+          <button class="btn btn-success">Order Now</button>
+         </div>
+        </div>
+        </div>
+        </div>
+        </div></div></div>
+        
+        <div class="container mt-5">
+            <div class="row">
+            <div class="col-lg-12">
+            <div class="card shadow">
+            <div class="card-body">
+            <div class="row  align-items-center">
+             <div class="col-lg-4">
+              <img src="images/brinjal.jpg" class="img-thumbnail">
+             </div>
+            
+             <div class="col-lg-8">
+              <h2>brinjal[1 KG]</h2>
+              <p>SELLING PRICE:<strike>80</strike></p>
+              <p>OFFER PRICE:70</p>
+              <button class="btn btn-success">Order Now</button>
+             </div>
+            </div>
+            </div></div></div>
+            </div></div>
+    
+            <div class="container mt-2">
+                <div class="row">
+                <div class="col-lg-12">
+                
+                <div class="card shadow">
+                <div class="card-body">
+                <div class="row  align-items-center">
+                
+                 <div class="col-lg-4">
+                  <img src="images/carat.jpg" class="img-thumbnail">
+                 </div>
+                 <div class="col-lg-8">
+                  <h2>CARROT[2KGS]</h2>
+                  <p>SELLING PRICE:<strike>50</strike></p>
+                  <p>OFFER PRICE:40</p>
+                  <button class="btn btn-success">Order Now</button>
+                 </div>
+                </div>
+                </div>
+                </div></div></div>
+                </div>
+                <div class="container mt-5">
+                    <div class="row">
+                    <div class="col-lg-12">
+                    <div class="card shadow">
+                    <div class="card-body">
+                    <div class="row  align-items-center">
+                    
+                     <div class="col-lg-4">
+                      <img src="images/drumstick.jpg" class="img-thumbnail">            
+                     </div>
+        
+                     <div class="col-lg-8">
+                      <h2>DRUMSTICK [1 KG]</h2>
+                      <p>SELLING PRICE:<strike>70</strike></p>
+                      <p>OFFER PRICE:40</p>
+                      <button class="btn btn-success">Order Now</button>
+                     </div>
+                    </div></div></div>
+                    </div>
+                    </div>
+                    </div>
+                    
+                    <div class="container mt-5">
+                        <div class="row">
+                        <div class="col-lg-12">
+                        
+                        <div class="card shadow">
+                        <div class="card-body">
+                        <div class="row  align-items-center">
+                        
+                         <div class="col-lg-4">
+                          <img src="images/onion1.jpg" class="img-thumbnail">
+                         </div>
+                         <div class="col-lg-8">
+                          <h2>ONION[7KGS]</h2>
+                          <p>SELLING PRICE:<strike>120</strike></p>
+                          <p>OFFER PRICE:90</p>
+                          <button class="btn btn-success">Order Now</button>
+                         </div>
+                        </div>
+                        </div></div></div>
+                        </div>
+                        </div>
+                        </div>
+<div id="u76" >
+<div class="container mt-3">
     <h3>RICE BAGES</h3>
 </div>
-<div class="container mt-5">
+<div class="container mt-2">
 
     <div class="row">
     <div class="col-lg-12">
@@ -129,11 +311,11 @@ marquee{font-size:20px}
       <p>OFFER PRICE:1400</p>
       <button class="btn btn-success">Order Now</button>
      </div>
+    </div></div>
     </div>
+    </div></div>
     </div>
-    </div>
-
-    <div class="container mt-5">
+    <div class="container mt-2">
         <div class="row">
         <div class="col-lg-12">
         <div class="card shadow">
@@ -149,11 +331,11 @@ marquee{font-size:20px}
           <p>OFFER PRICE:1700</p>
           <button class="btn btn-success">Order Now</button>
          </div>
+        </div></div></div>
         </div>
-        </div>
-        </div>
+        </div></div>
 
-        <div class="container mt-5">
+        <div class="container mt-2">
             <div class="row">
             <div class="col-lg-12">
             
@@ -173,8 +355,8 @@ marquee{font-size:20px}
             </div>
             </div>
             </div>
-
-            <div class="container mt-5">
+            </div></div></div>
+            <div class="container mt-2">
                 <div class="row">
                 <div class="col-lg-12">
                 <div class="card shadow">
@@ -195,10 +377,17 @@ marquee{font-size:20px}
                 </div>
                 </div>
                 </div>
-
+                </div></div></div>
+            
+            
+            
 <p  align="center"><a href="#cr1" align="center"><i>back to top</i></a><p>
-<div id="r33">
-<footer >
+
+    
+<footer class="text-white">
+    <div class="container-fluid" >
+        <div class="row">
+            <div class="col-12">
 <p align="center">&copy;Copy Right. All Rights Are Reserved<sup>&reg;</sup></p>
 <p align="center">Develop and maintain by farm tech groups.</p>
 <p align="center">follows us:&nbsp
@@ -208,13 +397,9 @@ marquee{font-size:20px}
 <a href="https://www.twitter.com"><img src="images/twitter.jpg" width=30px height=30px></a>&nbsp
 <a href="https://instagram.com/mr_confusion_17?igshid=MzNlNGNkZWQ4Mg=="><img src="images/instagram.jpg" width=30px height=30px></a>
 </p>
-</footer>
+
+</div></div>
 </div>
-
+</footer>
 </body>
-
-
-
-
-
 </html>

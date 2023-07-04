@@ -3,7 +3,8 @@
 <head>
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/bootstrap.bundle.js"></script>
-    <title>contactus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 <style>
     *{margin: 0px;}
 html{
@@ -77,10 +78,10 @@ transition-duration: 2s;}
 #r891:hover{
     transform: translate(-0px,-20px);
 }
-.rn img{transition-property: transform;
-transition-duration: 2s;}
-.rn img:hover{
-    transform: rotate(360deg);
+
+.rn img{
+   margin: -60px;
+   margin-left:10px;
 }
 #r893:hover{
     transform: translate(-0px,-20px);
@@ -139,11 +140,11 @@ background-color: antiquewhite;}
   background-position-x: 600px;
   }
 }
-#bh{height: 20px;
+#bh{height: auto;
 width: 160px;
-margin-top: 20px;
-position: relative;
-background-color: aquamarine;
+text-align: center;
+border-radius: 0px 10px 10px 50px;
+background-color: aquamarine!important;
 }
 #bh:hover{
     transform: translate(10px,10px);
@@ -166,27 +167,23 @@ background-color: aquamarine;
 
 </head>
 <body >
-    <div class="container-fluid">
-        <div class="row">
-    <div id="r1" class="col-lg-12 col-sm-12 col-md-12 col-12"><h1 style="text-align: center;">FARMTECH SOLUTIONS</h1>
-    </div>
-    </div>
-    </div>
-    
-    
-    <div class="container-fluid">
-        <div class="row">
-            <div class=" btn btn-group">
-                <a class="btn btn-primary" href="home.html">home</a>
-                <a href="crops.html"class="btn btn-primary">Crops</a>
-                <a href="market.html" class="btn btn-primary">Market</a>
-                <a href="contactus.html"class="btn btn-primary">contactus</a>
-            </div>
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+        <div class="container">
+            <a href="#" class="navbar-brand">farmtech</a>
+            <button class="navbar-toggler" data-bs-target="#hello" data-bs-toggle="collapse"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="hello">
+            <ui class="navbar-nav ms-auto">
+                <li><a href="home.html" class="nav-link">home</a></li>
+                <li><a href="market.html" class="nav-link">market</a></li>
+                <li><a href="crops.html" class="nav-link">crops</a></li>
+                <li><a href="contactus.html" class="nav-link">contactus</a></li>
+            </ui>
         </div>
-    </div>
+        </div>
+            </nav>
     
 
-<div class="container">
+<div class="container mt-3">
 <p>if any diseases effeted to ur farm . &#128247click the picture and fill the below form and get solutions by agricultural experts </p>
 </div>
 <div class="container"><div class="row"><div class="col-12">
@@ -194,7 +191,7 @@ background-color: aquamarine;
         <div class="card-head"> <img src="images/sol.jpg" class="w-100"></div>
         <div class="card-body bg-info">
            <form action="jnh.jsp">
-<table border="1" cellspacing="0" cellpadding="5" width=500 class="table-strip" >
+<table border="1" cellspacing="0"  width=490 class="table-strip col-12" >
 <tr><td>first name:</td><td><input type="text"></td></tr>
 <tr><td>last name:</td><td><input type="text"></td></tr>
 <tr><td>DOB:</td><td><input type="date"></td></tr>
@@ -214,8 +211,12 @@ background-color: aquamarine;
     <div id="r891">
         <div class="rn" id="r8911"><img src="images/janu.jpg" ></div>
     <div id="r8912"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore iusto ea quas perspiciatis, ipsam explicabo?</p></div>
-    <div id="bh"><a>chat with me</a></div>
-</div>
+    <div id="bh" class="align-items-center"> <button class="btn m-" data-bs-target="#he" data-bs-toggle="modal">chat with me!</button>
+    </div>
+        
+        </div>
+
+  
     <div id="r892"><div class="rn" id="r8922"><img src="images/madhu.jpg" ></div>
         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ratione magni, minima voluptates excepturi, enim at optio sapiente autem libero in facilis cupiditate ut atque aspernatur ipsa provident! Nostrum, optio!</div></div>
     <div id="r893"><div class="rn" id="r8933"><img src="images/roh.jpg" ></div>
@@ -223,6 +224,49 @@ background-color: aquamarine;
     </div>
 </div>
 
+
+
+<div class="modal animate__animated animate__backInUp" id="he">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header bg-success">
+    
+    <div class="row">
+    <div class="col">
+    <h2>DON'T WORRY</h2>
+    <p>JUST TYPE UR PROBLEM.</p>
+    </div>
+    </div>
+    <button class="btn-close" data-bs-dismiss="modal"></button>
+    </div>
+    
+    <div class="modal-body bg-info">
+    
+    <div class="row">
+    
+    <div class="col-lg-6">
+     <input type="text" placeholder="First name" class="form-control">
+    </div>  
+    
+    <div class="mt-2">
+     <input type="email" placeholder="Email address" class="form-control">
+    </div>
+    
+    <div class="mt-2">
+        <textarea type="text" placeholder="TYPE YOUR PROBLEM" cols=40 rows=5 class="form-control"></textarea>
+    </div>
+    
+     
+    <div class="mt-2  text-center">
+       <button CLASS="btn bg-success mx-3">SEND</button>
+       <button class="btn bg-warning mx-5" data-bs-dismiss="modal">CLOSE</button>
+    </div>
+    </div>
+    
+    </div>
+    </div>
+    </div>
+</div>
 
 <div id="s34"  class="col-lg-12 col-sm-12 col-md-12 col-12">
 
@@ -262,12 +306,11 @@ background-color: aquamarine;
         </div>
     </div>
 </div>
-<div 
 
-<p ><a href="#cr1" ><i>back to top</i></a><p>
+<p><a href="#cr1" ><i>back to top</i></a><p>
 
 <div id="r33">
-<footer>
+<footer class="text-white">
 <p align="center">&copy;Copy Right. All Rights Are Reserved<sup>&reg;</sup></p>
 <p align="center">Develop and maintain by farm tech groups.</p>
 <p align="center">follows us:&nbsp
