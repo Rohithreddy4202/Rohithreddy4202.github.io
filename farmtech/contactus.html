@@ -23,9 +23,7 @@ border-radius: 15px;
 position: sticky;
 top:0;
 } 
-a{
-font-size:20px;
-}
+
 marquee{font-size:20px}
 h1{
 font-size:50px;
@@ -56,49 +54,35 @@ font-size:30px;
     border-collapse: collapse;
     background-color:hsla(170,20%,20%,0.4);
 }
+.card2{ 
+    background-color: blue;
+    color:aliceblue;}
+    #crd2 .card{ 
+    background-color: blue;
+    color:aliceblue;}
 
-#r89{
-    width: 800px;
-    height: 350px;
-    margin: 20px;
-}
-#r892,#r893,#r891{width: 200px;
-height:300px;
-background: blue;
-float: left;
-box-shadow: 4px 4px 4px gray;
-margin: 10px;}
+    #crd1,#crd2,#crd3{
 
-    #r891,#r892,#r893{transition-property: transform;
+        transition-property: transform;
 transition-duration: 2s;}
-#r8911,#r8922,#r8933{height: 80px;
-    width: 100px;
-    margin: auto;
-}
-#r891:hover{
+
+#crd3:hover{
     transform: translate(-0px,-20px);
 }
 
-.rn img{
-   margin: -60px;
-   margin-left:10px;
-}
-#r893:hover{
+#crd1:hover{
     transform: translate(-0px,-20px);
 }
-#r892:hover{
+#crd2:hover{
     transform: translate(-0px,-20px);
 }
 .rn img{
     height: 80px;
     width: 80px;
+    margin-top: -60px;
     border-radius: 50px;
 }
-#r89r h3{
-    text-transform:uppercase;
-    font-size: 20px;
-    margin: 10px;   
-}
+
 #s3{height: 320px;
     width: 540px;
     margin:20px;
@@ -163,11 +147,12 @@ background-color: aquamarine!important;
 {padding: 10px;}
 #r98 td{text-align: center;}
 #r98 h4{ font-size: 20px;}
+p,a{font-size: 25px !important;}
 </style>
 
 </head>
 <body >
-    <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md sticky-top">
         <div class="container">
             <a href="#" class="navbar-brand">farmtech</a>
             <button class="navbar-toggler" data-bs-target="#hello" data-bs-toggle="collapse"><span class="navbar-toggler-icon"></span></button>
@@ -206,26 +191,43 @@ background-color: aquamarine!important;
 </div></div></div>
 
 <!--3 separete dive phots janu madhu ro-->
-<div id="r89"  class="col-lg-12 col-sm-12 col-md-12 col-12">
-    <div id="r89r"> <h3>experts</h3></div>
-    <div id="r891">
-        <div class="rn" id="r8911"><img src="images/janu.jpg" ></div>
-    <div id="r8912"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore iusto ea quas perspiciatis, ipsam explicabo?</p></div>
-    <div id="bh" class="align-items-center"> <button class="btn m-" data-bs-target="#he" data-bs-toggle="modal">chat with me!</button>
-    </div>
-        
-        </div>
 
-  
-    <div id="r892"><div class="rn" id="r8922"><img src="images/madhu.jpg" ></div>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ratione magni, minima voluptates excepturi, enim at optio sapiente autem libero in facilis cupiditate ut atque aspernatur ipsa provident! Nostrum, optio!</div></div>
-    <div id="r893"><div class="rn" id="r8933"><img src="images/roh.jpg" ></div>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ratione magni, minima voluptates excepturi, enim at optio sapiente autem libero in facilis cupiditate ut atque aspernatur ipsa provident! Nostrum, optio!</div></div>
-    </div>
+<div class="container-fluid mt-5 " id="crd">
+    <div class="row">
+        <div id="r89r"> <h2>experts</h2></div>
+<div class=" col-lg-4 col-12 col-md-6 col-sm-12 mt-5 " id="crd1">
+    <div class="card shadow crd2">
+        <div class="card-body text-center card2">
+            <div class="rn" id="r8911"><img src="images/janu.jpg" ></div>
+            <div id="r8912" ><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia saepe nihil illum fuga cupiditate, maiores soluta sed ducimus nemo iusto animi, odio accusamus, necessitatibus minus. Ut rem blanditiis facilis reprehenderit.</p></div>
+            <div id="bh" class="align-items-center"> <button class="btn m-" data-bs-target="#he" data-bs-toggle="modal">chat with me!</button>
+            </div></div>
+        </div>
 </div>
 
+<div class=" col-lg-4 col-12 col-md-6 col-sm-12 mt-5"id="crd2">
+        <div class="card shadow">
+            <div class="card-body text-center card2">
+                <div class="rn" id="r8911"><img src="images/madhu.jpg" ></div>
+                <div id="r8912" ><p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni sint recusandae, nam dolorum illum excepturi laudantium assumenda sunt quasi temporibus quisquam aliquam reiciendis! Modi iure illo eaque nostrum, molestias exercitationem.</p></div>
+                <div id="bh" class="align-items-center"> <button class="btn m-" data-bs-target="#he" data-bs-toggle="modal">chat with me!</button>
+                </div></div>
+            </div>
+        </div>
 
+        <div class=" col-lg-4 col-12 col-md-6 col-sm-12 mt-5" id="crd3">            <div class="card shadow">
+                <div class="card-body text-center card2">
+                    <div class="rn" id="r8911"><img src="images/roh.jpg" ></div>
+                    <div id="r8912" ><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sequi eius deleniti cum aliquid similique corrupti quia laborum suscipit, voluptatibus laudantium officia accusamus, dolorem necessitatibus esse commodi nostrum earum alias.</p></div>
+                    <div id="bh" class="align-items-center"> <button class="btn m-" data-bs-target="#he" data-bs-toggle="modal">chat with me!</button>
+                    </div></div>
+                </div>
+            </div>
 
+</div>
+</div>
+
+<!-- modelbox-->
 <div class="modal animate__animated animate__backInUp" id="he">
     <div class="modal-dialog">
     <div class="modal-content">
