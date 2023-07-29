@@ -90,7 +90,6 @@ background: blue;
 display: inline-block;
 position: relative;
 left: 10px;
-
 overflow: hidden;}
 
 
@@ -103,14 +102,9 @@ overflow: hidden;}
   animation: spin 3.5s  linear infinite ;
 }
  
-#s35{height: 200px;
-width: 300px;
-padding: 10px;
 
 
-background-color: antiquewhite;}
 
-#s35,#s36{float: left; margin: 10PX;}
 @keyframes spin{
     0%{
  background-position-x:0;}
@@ -130,7 +124,7 @@ background-color: aquamarine!important;
     color: brown;
     text-decoration: underline;
 }
-form {}
+
 #bh a{
     padding: 5px;
     text-transform: uppercase;
@@ -149,7 +143,7 @@ p,a{font-size: 25px !important;}
 <body >
     <nav class="navbar bg-dark navbar-dark navbar-expand-lg sticky-top">
         <div class="container">
-            <a href="#" class="navbar-brand">farmtech</a>
+            <a href="#" class="navbar-brand">FarmBuddy</a>
             <button class="navbar-toggler" data-bs-target="#hello" data-bs-toggle="collapse"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="hello">
             <ui class="navbar-nav ms-auto">
@@ -193,7 +187,7 @@ p,a{font-size: 25px !important;}
 <div class=" col-lg-4 col-12 col-md-6 col-sm-12 mt-5 " id="crd1">
     <div class="card shadow crd2">
         <div class="card-body text-center card2">
-            <div class="rn" id="r8911"><img src="images/janu.jpg" class="rounded-circle"></div>
+            <div class="rn" id="r8911"><img src="" class="rounded-circle"></div>
             <div id="r8912" ><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia saepe nihil illum fuga cupiditate, maiores soluta sed ducimus nemo iusto animi, odio accusamus, necessitatibus minus. Ut rem blanditiis facilis reprehenderit.</p></div>
             <div id="bh" class="align-items-center"> <button class="btn m-" data-bs-target="#he" data-bs-toggle="modal">chat with me!</button>
             </div></div>
@@ -203,7 +197,7 @@ p,a{font-size: 25px !important;}
 <div class=" col-lg-4 col-12 col-md-6 col-sm-12 mt-5"id="crd2">
         <div class="card shadow">
             <div class="card-body text-center card2">
-                <div class="rn" id="r8911"><img src="images/madhu.jpg" class="rounded-circle "></div>
+                <div class="rn" id="r8911"><img src="#" class="rounded-circle "></div>
                 <div id="r8912" ><p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni sint recusandae, nam dolorum illum excepturi laudantium assumenda sunt quasi temporibus quisquam aliquam reiciendis! Modi iure illo eaque nostrum, molestias exercitationem.</p></div>
                 <div id="bh" class="align-items-center"> <button class="btn m-" data-bs-target="#he" data-bs-toggle="modal">chat with me!</button>
                 </div></div>
@@ -275,17 +269,16 @@ p,a{font-size: 25px !important;}
 <div class="container-fluid mt-5" id="s34">
    
     <div class="row">
-    <div class="col-lg-10 col-md-10 col-sm-10 col-10">
-    <div class="card shadow">
-    <div class="card-body mt-2 bg-info">
+    <div class="card shadow  mt-2" class="col-lg-10 col-md-9 col-sm-10 col-12">
+    <div class="card-body bg-info">
         <h3>FIND AGRI EXPERTS IN UR AREA</h3>
     <div class="row  align-items-center">
-     <div class="col-lg-5 col-md-5 col-5 col-sm-5">
+     <div class="col-lg-5 col-md-5 col-6 col-sm-5">
         <div id="s36" class=Earth></div>   
      </div>
 
-     <div class="col-lg-5 col-sm-5 col-md-5 col-5">
-        <div id ="s35" class="text-center"> <p>choose your country</p><form action="/action_page.php">
+     <div class="col-lg-4 col-sm-5 bg-primary col-md-4 col-6" >
+        <div class="text-center"> <p>choose your country</p><form action="/action_page.php">
             <select name="count" id="country">
                 <option value=" NONE"></option>
               <option value="India">INDIA</option>
@@ -299,7 +292,6 @@ p,a{font-size: 25px !important;}
           </div>
      </div>
     </div></div>
-    </div>
     </div>
     </div></div>
 
