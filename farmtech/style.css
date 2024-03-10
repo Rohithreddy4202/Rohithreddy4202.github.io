@@ -7,13 +7,13 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #080808;
+    background:whitesmoke;
     color: #4943f6;
 }
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/rohith.jpg);
+    background-image: url(#);
 
 background-size: cover;
 background-position: center;
@@ -183,7 +183,7 @@ transition: 0.5s;
     margin-top: 20px;
     color:#ff004f;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 60px;
     background: #fff;
     width: 60px;
@@ -262,7 +262,7 @@ form input, form textarea{
     padding: 15px;
     margin: 15px 0;
 color: #fff;
-font-size: 18px;
+font-size: 20px;
 border-radius: 6px;
 }
 
@@ -294,7 +294,7 @@ background-image: url(images/rr1.png);
 }
 .header-text{
     margin-top: 100%;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .header-text h1{
